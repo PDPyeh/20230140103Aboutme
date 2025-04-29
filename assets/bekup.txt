@@ -1,0 +1,111 @@
+
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue Kelompok 4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="assets/css/main.custom.css" />
+
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Audio -->
+		<audio id="bg-music" src="assets/audio/newhorizomn.mp3" autoplay loop></audio>
+
+		<!-- Tombol mute -->
+		<button id="mute-btn" style="position: fixed; top: 20px; right: 20px; z-index: 9999; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">
+  🔈
+		</button>
+
+		<video autoplay muted loop id="bg-video">
+			<source src="assets/video/Ep032.mp4" type="video/mp4">
+		  </video>
+		  
+
+
+		<!-- Header -->
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Welcome To<strong> Our</strong> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Page!</a> ini<br />
+								adalah Page yang di design dari  <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">about me?</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Yo wassup, kita tim OG dari TI C, frfr no cap 🔥.  
+								Kita brainrot tiap hari ngulik teknologi, project kita selalu kece badai, built different bro!  
+								Here to flex our best works, stay tuned! 🚀</p>
+
+							
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Us</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>just a design; <a href="https://hosseimv.carrd.co/">whats this?</a></li>
+					</ul>
+
+			</div>
+
+<script src="script.js"></script>
+
+		
+			  
+
+	</body>
+</html>
