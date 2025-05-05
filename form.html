@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form HTML</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/video/Ep032.mp4" type="video/mp4" />
+  </video>
+
+  <audio id="bg-music" src="assets/audio/newhorizomn.mp3" autoplay loop></audio>
+  <button id="mute-btn">🔈</button>
+
+  <main class="container">
+  <h2>Form Pendaftaran</h2>
+  <form action="/submit" method="post">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <p>Jenis Kelamin:</p>
+    <div class="Jk-Chek">
+    <input type="radio" id="laki" name="gender" value="Laki-laki">
+    <label for="laki">Laki-laki</label><br>
+    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+    <label for="perempuan">Perempuan</label><br>
+    </div>
+
+    <p>Hobi:</p>
+    <div class="checkbox-group">
+    <label><input type="checkbox" id="musik" name="hobi" value="Musik">Game</label>
+    <label><input type="checkbox" id="olahraga" name="hobi" value="Olahraga">Ngedid</label>
+    <label><input type="checkbox" id="ngoding" name="hobi" value="Ngoding">Ngoding</label>
+    </div>
+
+    <input type="submit" value="Kirim">
+  </form>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
